@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         java: ['1.8', '1.10', '1.12']
-    name: Run Connector Packager unit tests with JDK ${{ matrix.java }}
+    name: Run Connector Packager unit tests with JDK ${{ matrix.java }} cool!
     steps:
       - uses: actions/checkout@master
       - name: Unit tests with JDK ${{ matrix.java }}
